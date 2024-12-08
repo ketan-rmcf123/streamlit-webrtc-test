@@ -5,7 +5,7 @@ from streamlit_webrtc import WebRtcMode, webrtc_streamer
 
 from utils.turn import get_ice_servers
 
-playing = st.checkbox("Playing", value=True)
+playing = st.checkbox("Playing", value=False)
 
 webrtc_streamer(
     key="programatic_control",
